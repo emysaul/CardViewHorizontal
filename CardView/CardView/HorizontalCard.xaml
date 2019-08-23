@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CardView.HorizontalCard" >
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout BackgroundColor="#E2D9FF" >
+
+                <Frame BackgroundColor="white" Margin="10" HasShadow="False" Padding="0" HeightRequest="200" >
+                    <Grid >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1.2*" />
+                            <RowDefinition Height="8*" />
+                        </Grid.RowDefinitions>
+
+                        <Label Text="American 2016" Margin="10,0,0,0" VerticalOptions="Center"  />
+                        <Grid  HorizontalOptions="End" Margin="0,0,10,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="0" Text="5" VerticalOptions="Center" HorizontalOptions="End"    />
+                            <Label Grid.Column="1" Text="5" VerticalOptions="Center" HorizontalOptions="End"   />
+                        </Grid>
+
+                        <Image Source="Amsterdam.jpg" 
+                               Aspect="AspectFill"
+                               Grid.Row="1" />
+
+                    </Grid>
+                </Frame>
+
+                <Frame BackgroundColor="white" Margin="10" HasShadow="False" Padding="0" HeightRequest="200" >
+                    <Grid >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1.2*" />
+                            <RowDefinition Height="8*" />
+                        </Grid.RowDefinitions>
+
+                        <Label Text="American 2016" Margin="10,0,0,0" VerticalOptions="Center"  />
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="End" Margin="0,0,10,0">
+                            <Label Text="5" VerticalOptions="Center" HorizontalOptions="End"    />
+                            <Label Text="5" VerticalOptions="Center" HorizontalOptions="End"   />
+                        </StackLayout>
+
+                        <Image Source="Amsterdam.jpg" 
+                               Aspect="AspectFill"
+                               Grid.Row="1" />
+
+                    </Grid>
+                </Frame>
+
+                <Frame BackgroundColor="white" Margin="10" HasShadow="False" Padding="0" HeightRequest="200" >
+                    <Grid >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1.2*" />
+                            <RowDefinition Height="8*" />
+                        </Grid.RowDefinitions>
+
+                        <Label Text="American 2016" Margin="10,0,0,0" VerticalOptions="Center"  />
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="End" Margin="0,0,10,0">
+                            <Label Text="5" VerticalOptions="Center" HorizontalOptions="End"    />
+                            <Label Text="5" VerticalOptions="Center" HorizontalOptions="End"   />
+                        </StackLayout>
+
+                        <Image Source="Amsterdam.jpg" 
+                               Aspect="AspectFill"
+                               Grid.Row="1" />
+
+                    </Grid>
+                </Frame>
+
+                <Frame BackgroundColor="white" Margin="10" HasShadow="False" Padding="0" HeightRequest="200" >
+                    <Grid >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1.2*" />
+                            <RowDefinition Height="8*" />
+                        </Grid.RowDefinitions>
+
+                        <Label Text="American 2016" Margin="10,0,0,0" VerticalOptions="Center"  />
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="End" Margin="0,0,10,0">
+                            <Label Text="5" VerticalOptions="Center" HorizontalOptions="End"    />
+                            <Label Text="5" VerticalOptions="Center" HorizontalOptions="End"   />
+                        </StackLayout>
+
+                        <Image Source="Amsterdam.jpg" 
+                               Aspect="AspectFill"
+                               Grid.Row="1" />
+
+                    </Grid>
+                </Frame>
+
+                <Frame BackgroundColor="white" Margin="10" HasShadow="False" Padding="0" HeightRequest="200" >
+                    <Grid >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1.2*" />
+                            <RowDefinition Height="8*" />
+                        </Grid.RowDefinitions>
+
+                        <Label Text="American 2016" Margin="10,0,0,0" VerticalOptions="Center"  />
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="End" Margin="0,0,10,0">
+                            <Label Text="5" VerticalOptions="Center" HorizontalOptions="End"    />
+                            <Label Text="5" VerticalOptions="Center" HorizontalOptions="End"   />
+                        </StackLayout>
+
+                        <Image Source="Amsterdam.jpg" 
+                               Aspect="AspectFill"
+                               Grid.Row="1" />
+
+                    </Grid>
+                </Frame>
+
+                <Frame BackgroundColor="white" Margin="10" HasShadow="False" Padding="0" HeightRequest="200" >
+                    <Grid >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1.2*" />
+                            <RowDefinition Height="8*" />
+                        </Grid.RowDefinitions>
+
+                        <Label Text="American 2016" Margin="10,0,0,0" VerticalOptions="Center"  />
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="End" Margin="0,0,10,0">
+                            <Label Text="5" VerticalOptions="Center" HorizontalOptions="End"    />
+                            <Label Text="5" VerticalOptions="Center" HorizontalOptions="End"   />
+                        </StackLayout>
+
+                        <Image Source="Amsterdam.jpg" 
+                               Aspect="AspectFill"
+                               Grid.Row="1" />
+
+                    </Grid>
+                </Frame>
+
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
